@@ -1,2 +1,51 @@
 
 /* Your CSS Code here. */
+body{
+      font-family: 'Gilroy', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 1em 0;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 0 15px;
+    }
+
+    ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    video {
+      margin: 10px 0;
+      width: 90%;
+      max-width: 600px;
+    }
